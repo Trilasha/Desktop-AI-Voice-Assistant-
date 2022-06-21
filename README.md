@@ -1,2 +1,2 @@
 # Desktop-AI-Voice-Assistant-
-It's a kind of an AI voice assistant for desktop built using python that operates on the basis of your vocal instructions.
+It's a kind of an AI voice assistant for desktop built using python.Based on your vocal instructions,it can play music for you,open different sites like google,youtube,can send email to your desired person,tell you the current time and wish you accordingly.I will keep on enhancing it further by adding new features to it from time to time...
