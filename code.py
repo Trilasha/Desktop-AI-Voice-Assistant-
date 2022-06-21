@@ -31,7 +31,6 @@ def wishMe():
     speak("Hope you are doing well.Please tell me ma'am how may I help you?")
 
 def takeCommand():
-    #It takes microphone input from the user and returns string output
     r=sr.Recognizer()
     with sr.Microphone() as source:
         print("Yes I am all ears...please speak")
@@ -86,9 +85,7 @@ if __name__ == "__main__":
             codePath="C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
             os.startfile(codePath)
         elif 'email to xyz' in query:
-            # create dictionaries making names as the keys and their emailIDS as the values
             try:
-                # takecommand will return whatever we speak in the form of a string
                 speak("What should I say?")
                 content=takeCommand()
                 to = "xyz@gmail.com"
